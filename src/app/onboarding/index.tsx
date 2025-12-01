@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Dimensions, NativeScrollEvent, NativeSyntheticEvent, ScrollView, View } from "react-native";
-import FirstScreen from "./screens/FirstScreen";
-import SecondScreen from "./screens/SecondScreen";
-import ThirdScreen from "./screens/ThirdScreen";
+import FirstScreen from "../../screens/Onboarding/FirstScreen";
+import SecondScreen from "../../screens/Onboarding/SecondScreen";
+import ThirdScreen from "../../screens/Onboarding/ThirdScreen";
 
 export default function OnBoarding() {
   const [page, setPage] = useState(0);

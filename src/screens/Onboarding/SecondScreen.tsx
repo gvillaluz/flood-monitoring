@@ -1,7 +1,7 @@
-import CircleLogo from '@/app/components/CircleLogo';
+import CircleLogo from '@/src/components/CircleLogo';
 import { Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import TileList from '../components/TileList';
+import TileList from './components/TileList';
 
 type Props = {
     width: number

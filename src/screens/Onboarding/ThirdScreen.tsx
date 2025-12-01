@@ -1,8 +1,8 @@
-import ShieldLogo from '@/app/components/ShieldLogo';
+import ShieldLogo from '@/src/components/ShieldLogo';
 import { Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import StartBtn from '../components/StartBtn';
-import StepList from '../components/StepList';
+import StartBtn from './components/StartBtn';
+import StepList from './components/StepList';
 
 type Props = {
     width: number

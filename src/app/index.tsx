@@ -1,8 +1,9 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import * as NavigationBar from 'expo-navigation-bar';
 import { useRouter } from "expo-router";
 import { useEffect } from "react";
 import { ActivityIndicator, View } from "react-native";
-import LigtasCheckLogo from './components/LigtasCheckLogo';
+import LigtasCheckLogo from '../components/LigtasCheckLogo';
 
 export default function Index() {
   const router = useRouter();
@@ -19,6 +20,10 @@ export default function Index() {
         router.replace('/home');
       }
     }
+
+    NavigationBar.setVisibilityAsync("hidden");
+    //NavigationBar.setBehaviorAsync("overlay-swipe");
+
     checkOnBoard();
   }, []);
 

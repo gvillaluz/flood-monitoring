@@ -1,4 +1,4 @@
-import LigtasCheckLogo from '@/app/components/LigtasCheckLogo';
+import LigtasCheckLogo from '@/src/components/LigtasCheckLogo';
 import { LinearGradient } from 'expo-linear-gradient';
 import { Text, View } from 'react-native';
 
@@ -12,7 +12,7 @@ export default function FirstScreen({ width }: Props) {
             colors={['rgba(43, 106, 237, 1)', 'rgba(39, 198, 239, 1)']}
             start={{ x: 0, y: 0 }}
             end={{ x: 1, y: 1 }}
-            className='flex-1 justify-center align-middle'
+            className='flex-1 justify-center items-center'
             style={{ width: width }}
         >
             <View
